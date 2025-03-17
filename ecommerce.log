@@ -1,0 +1,176 @@
+2025-03-02T01:59:48.932+03:00  WARN 58036 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8h33m14s296ms400µs700ns).
+2025-03-02T02:09:04.758+03:00  INFO 58036 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-02T02:09:04.770+03:00  INFO 58036 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-02T02:09:04.775+03:00  INFO 58036 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-02T02:09:04.778+03:00  INFO 58036 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-02T02:09:04.780+03:00  INFO 58036 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-03-02T11:57:16.171+03:00  INFO 79760 --- [main] c.m.h.HastaneOtomasyonuApplication       : Starting HastaneOtomasyonuApplication using Java 23 with PID 79760 (C:\BOOST_JAVA\JAVA_SE\Hastane_Otomasyonu\build\classes\java\main started by berka in C:\BOOST_JAVA\JAVA_SE\Hastane_Otomasyonu)
+2025-03-02T11:57:16.173+03:00  INFO 79760 --- [main] c.m.h.HastaneOtomasyonuApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-03-02T11:57:16.964+03:00  INFO 79760 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-02T11:57:17.029+03:00  INFO 79760 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 55 ms. Found 4 JPA repository interfaces.
+2025-03-02T11:57:17.492+03:00  INFO 79760 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2025-03-02T11:57:17.506+03:00  INFO 79760 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-02T11:57:17.506+03:00  INFO 79760 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-02T11:57:17.564+03:00  INFO 79760 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-02T11:57:17.565+03:00  INFO 79760 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1347 ms
+2025-03-02T11:57:17.688+03:00  INFO 79760 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-02T11:57:17.768+03:00  INFO 79760 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-02T11:57:17.806+03:00  INFO 79760 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-02T11:57:18.110+03:00  INFO 79760 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-02T11:57:18.145+03:00  INFO 79760 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-02T11:57:18.452+03:00  INFO 79760 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6fc0e448
+2025-03-02T11:57:18.454+03:00  INFO 79760 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-02T11:57:18.567+03:00  INFO 79760 --- [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-02T11:57:19.554+03:00  INFO 79760 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-02T11:57:19.718+03:00  INFO 79760 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-02T11:57:20.072+03:00  INFO 79760 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-03-02T11:57:20.712+03:00  WARN 79760 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-02T11:57:20.742+03:00  INFO 79760 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name jwtUserDetails
+2025-03-02T11:57:20.804+03:00  WARN 79760 --- [main] thorizationManagerRequestMatcherRegistry : One of the patterns in [/swagger-ui/**, v3/api-docs/**, /dev/v1/user/**] is missing a leading slash. This is discouraged; please include the leading slash in all your request matcher patterns. In future versions of Spring Security, leaving out the leading slash will result in an exception.
+2025-03-02T11:57:21.243+03:00  INFO 79760 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
+2025-03-02T11:57:21.249+03:00  INFO 79760 --- [main] c.m.h.HastaneOtomasyonuApplication       : Started HastaneOtomasyonuApplication in 5.572 seconds (process running for 6.571)
+2025-03-02T11:57:29.475+03:00  INFO 79760 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-02T11:57:29.475+03:00  INFO 79760 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-02T11:57:29.477+03:00  INFO 79760 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-03-02T11:57:30.563+03:00  INFO 79760 --- [http-nio-9090-exec-9] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 275 ms
+2025-03-02T12:03:06.053+03:00 ERROR 79760 --- [http-nio-9090-exec-6] c.m.h.exception.GlobalExceptionHandler   : Error message : Sunucuda beklenmeyen bir hata - Fields : null
+2025-03-02T12:03:11.073+03:00 ERROR 79760 --- [http-nio-9090-exec-7] c.m.h.exception.GlobalExceptionHandler   : Error message : Sunucuda beklenmeyen bir hata - Fields : null
+2025-03-02T12:03:43.095+03:00 ERROR 79760 --- [http-nio-9090-exec-1] c.m.h.exception.GlobalExceptionHandler   : Error message : Sunucuda beklenmeyen bir hata - Fields : null
+2025-03-02T12:04:10.923+03:00 ERROR 79760 --- [http-nio-9090-exec-7] c.m.h.exception.GlobalExceptionHandler   : Error message : Sunucuda beklenmeyen bir hata - Fields : null
+2025-03-02T12:04:24.481+03:00 ERROR 79760 --- [http-nio-9090-exec-10] c.m.h.exception.GlobalExceptionHandler   : Error message : Sunucuda beklenmeyen bir hata - Fields : null
+2025-03-02T12:04:35.810+03:00  INFO 79760 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-02T12:04:35.823+03:00  INFO 79760 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-02T12:04:35.827+03:00  INFO 79760 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-02T12:04:35.829+03:00  INFO 79760 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-02T12:04:35.831+03:00  INFO 79760 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-03-02T12:06:00.797+03:00  INFO 71272 --- [main] c.m.h.HastaneOtomasyonuApplication       : Starting HastaneOtomasyonuApplication using Java 23 with PID 71272 (C:\BOOST_JAVA\JAVA_SE\Hastane_Otomasyonu\build\classes\java\main started by berka in C:\BOOST_JAVA\JAVA_SE\Hastane_Otomasyonu)
+2025-03-02T12:06:00.799+03:00  INFO 71272 --- [main] c.m.h.HastaneOtomasyonuApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-03-02T12:06:01.433+03:00  INFO 71272 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-02T12:06:01.492+03:00  INFO 71272 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50 ms. Found 4 JPA repository interfaces.
+2025-03-02T12:06:01.902+03:00  INFO 71272 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2025-03-02T12:06:01.914+03:00  INFO 71272 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-02T12:06:01.914+03:00  INFO 71272 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-02T12:06:01.969+03:00  INFO 71272 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-02T12:06:01.969+03:00  INFO 71272 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1132 ms
+2025-03-02T12:06:02.083+03:00  INFO 71272 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-02T12:06:02.131+03:00  INFO 71272 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-02T12:06:02.164+03:00  INFO 71272 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-02T12:06:02.411+03:00  INFO 71272 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-02T12:06:02.438+03:00  INFO 71272 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-02T12:06:02.564+03:00  INFO 71272 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@da5d5e1
+2025-03-02T12:06:02.566+03:00  INFO 71272 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-02T12:06:02.627+03:00  INFO 71272 --- [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-02T12:06:03.438+03:00  INFO 71272 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-02T12:06:03.477+03:00  INFO 71272 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-02T12:06:03.753+03:00  INFO 71272 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-03-02T12:06:04.323+03:00  WARN 71272 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-02T12:06:04.354+03:00  INFO 71272 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name jwtUserDetails
+2025-03-02T12:06:04.396+03:00  WARN 71272 --- [main] thorizationManagerRequestMatcherRegistry : One of the patterns in [/swagger-ui/**, v3/api-docs/**, /dev/v1/user/**] is missing a leading slash. This is discouraged; please include the leading slash in all your request matcher patterns. In future versions of Spring Security, leaving out the leading slash will result in an exception.
+2025-03-02T12:06:04.776+03:00  INFO 71272 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
+2025-03-02T12:06:04.785+03:00  INFO 71272 --- [main] c.m.h.HastaneOtomasyonuApplication       : Started HastaneOtomasyonuApplication in 4.344 seconds (process running for 4.836)
+2025-03-02T12:06:21.863+03:00  INFO 71272 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-02T12:06:21.864+03:00  INFO 71272 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-02T12:06:21.865+03:00  INFO 71272 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-03-02T12:06:38.531+03:00 ERROR 71272 --- [http-nio-9090-exec-9] c.m.h.exception.GlobalExceptionHandler   : Error message : Sunucuda beklenmeyen bir hata - Fields : null
+2025-03-02T12:07:10.765+03:00 ERROR 71272 --- [http-nio-9090-exec-8] c.m.h.exception.GlobalExceptionHandler   : Error message : Sunucuda beklenmeyen bir hata - Fields : null
+2025-03-02T12:07:30.555+03:00 ERROR 71272 --- [http-nio-9090-exec-1] c.m.h.exception.GlobalExceptionHandler   : Error message : Sunucuda beklenmeyen bir hata - Fields : null
+2025-03-02T12:12:26.771+03:00  INFO 71272 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-02T12:12:26.785+03:00  INFO 71272 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-02T12:12:26.789+03:00  INFO 71272 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-02T12:12:26.791+03:00  INFO 71272 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-02T12:12:26.793+03:00  INFO 71272 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-03-02T12:14:57.899+03:00  INFO 75428 --- [main] c.m.h.HastaneOtomasyonuApplication       : Starting HastaneOtomasyonuApplication using Java 23 with PID 75428 (C:\BOOST_JAVA\JAVA_SE\Hastane_Otomasyonu\build\classes\java\main started by berka in C:\BOOST_JAVA\JAVA_SE\Hastane_Otomasyonu)
+2025-03-02T12:14:57.901+03:00  INFO 75428 --- [main] c.m.h.HastaneOtomasyonuApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-03-02T12:14:58.588+03:00  INFO 75428 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-02T12:14:58.646+03:00  INFO 75428 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50 ms. Found 4 JPA repository interfaces.
+2025-03-02T12:14:59.063+03:00  INFO 75428 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2025-03-02T12:14:59.075+03:00  INFO 75428 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-02T12:14:59.075+03:00  INFO 75428 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-02T12:14:59.126+03:00  INFO 75428 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-02T12:14:59.126+03:00  INFO 75428 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1180 ms
+2025-03-02T12:14:59.239+03:00  INFO 75428 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-02T12:14:59.297+03:00  INFO 75428 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-02T12:14:59.334+03:00  INFO 75428 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-02T12:14:59.623+03:00  INFO 75428 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-02T12:14:59.649+03:00  INFO 75428 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-02T12:14:59.787+03:00  INFO 75428 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@75a9cc24
+2025-03-02T12:14:59.788+03:00  INFO 75428 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-02T12:14:59.848+03:00  INFO 75428 --- [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-02T12:15:00.662+03:00  INFO 75428 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-02T12:15:00.701+03:00  INFO 75428 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-02T12:15:00.983+03:00  INFO 75428 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-03-02T12:15:01.554+03:00  WARN 75428 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-02T12:15:01.586+03:00  INFO 75428 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name jwtUserDetails
+2025-03-02T12:15:01.636+03:00  WARN 75428 --- [main] thorizationManagerRequestMatcherRegistry : One of the patterns in [/swagger-ui/**, v3/api-docs/**, /dev/v1/user/**] is missing a leading slash. This is discouraged; please include the leading slash in all your request matcher patterns. In future versions of Spring Security, leaving out the leading slash will result in an exception.
+2025-03-02T12:15:02.048+03:00  INFO 75428 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
+2025-03-02T12:15:02.054+03:00  INFO 75428 --- [main] c.m.h.HastaneOtomasyonuApplication       : Started HastaneOtomasyonuApplication in 4.538 seconds (process running for 5.031)
+2025-03-02T12:15:07.282+03:00  INFO 75428 --- [http-nio-9090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-02T12:15:07.282+03:00  INFO 75428 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-02T12:15:07.283+03:00  INFO 75428 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-03-02T12:16:32.374+03:00  INFO 75428 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-02T12:16:32.386+03:00  INFO 75428 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-02T12:16:32.390+03:00  INFO 75428 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-02T12:16:32.391+03:00  INFO 75428 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-02T12:16:32.394+03:00  INFO 75428 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-03-02T22:03:52.376+03:00  INFO 71760 --- [main] c.m.h.HastaneOtomasyonuApplication       : Starting HastaneOtomasyonuApplication using Java 23 with PID 71760 (C:\BOOST_JAVA\JAVA_SE\Hastane_Otomasyonu\build\classes\java\main started by berka in C:\BOOST_JAVA\JAVA_SE\Hastane_Otomasyonu)
+2025-03-02T22:03:52.376+03:00  INFO 71760 --- [main] c.m.h.HastaneOtomasyonuApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-03-02T22:03:53.074+03:00  INFO 71760 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-02T22:03:53.135+03:00  INFO 71760 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54 ms. Found 4 JPA repository interfaces.
+2025-03-02T22:03:53.534+03:00  INFO 71760 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2025-03-02T22:03:53.545+03:00  INFO 71760 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-02T22:03:53.545+03:00  INFO 71760 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-02T22:03:53.592+03:00  INFO 71760 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-02T22:03:53.593+03:00  INFO 71760 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1177 ms
+2025-03-02T22:03:53.707+03:00  INFO 71760 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-02T22:03:53.758+03:00  INFO 71760 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-02T22:03:53.790+03:00  INFO 71760 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-02T22:03:54.043+03:00  INFO 71760 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-02T22:03:54.069+03:00  INFO 71760 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-02T22:03:54.195+03:00  INFO 71760 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@38e7860c
+2025-03-02T22:03:54.197+03:00  INFO 71760 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-02T22:03:54.270+03:00  INFO 71760 --- [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-02T22:03:55.071+03:00  INFO 71760 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-02T22:03:55.109+03:00  INFO 71760 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-02T22:03:55.381+03:00  INFO 71760 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-03-02T22:03:55.948+03:00  WARN 71760 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-02T22:03:55.985+03:00  INFO 71760 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name jwtUserDetails
+2025-03-02T22:03:56.034+03:00  WARN 71760 --- [main] thorizationManagerRequestMatcherRegistry : One of the patterns in [/swagger-ui/**, v3/api-docs/**, /dev/v1/user/**] is missing a leading slash. This is discouraged; please include the leading slash in all your request matcher patterns. In future versions of Spring Security, leaving out the leading slash will result in an exception.
+2025-03-02T22:03:56.407+03:00  INFO 71760 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
+2025-03-02T22:03:56.414+03:00  INFO 71760 --- [main] c.m.h.HastaneOtomasyonuApplication       : Started HastaneOtomasyonuApplication in 4.397 seconds (process running for 4.879)
+2025-03-02T22:04:04.361+03:00  INFO 71760 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-02T22:04:04.362+03:00  INFO 71760 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-02T22:04:04.363+03:00  INFO 71760 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-03-02T22:04:05.441+03:00  INFO 71760 --- [http-nio-9090-exec-5] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 262 ms
+2025-03-02T22:05:55.983+03:00  INFO 71760 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-02T22:05:55.997+03:00  INFO 71760 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-02T22:05:56.000+03:00  INFO 71760 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-02T22:05:56.000+03:00  INFO 71760 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-02T22:05:56.005+03:00  INFO 71760 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
